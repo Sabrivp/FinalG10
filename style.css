@@ -8,6 +8,11 @@ background-color: #7e268a (75, 75, 252);
 
 
 }
+.banner{
+    padding: 0 50px;
+    background-image: url(./imagen/fondo1.jpg);
+}
+
 
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
