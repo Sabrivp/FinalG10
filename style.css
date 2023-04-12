@@ -11,7 +11,50 @@ background-color: #7e268a (75, 75, 252);
 .banner{
     padding: 0 50px;
     background-image: url(./imagen/fondo1.jpg);
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
 }
+.contenido-banner{
+    position: relative;
+    color:#370344;
+    height: 100%;
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.contenido-banner h3{
+    font-size: 100px;
+    font-weight: 500;
+    padding: 250px 500px;
+
+
+}
+.contenido-banner h3 span{
+    font-weight: 100px;
+
+}
+
+.boton-empezar{
+    text-decoration: none;
+    color:rgb(80, 9, 68);
+    border: 3px solid wheat;
+    padding: 20px 40px;
+    align-self: baseline;
+    transition: all 0.4s;
+    
+    
+
+
+}
+.boton-empezar:hover{
+    background: #7e268a;
+    }
+    
+    
+
 
 
 *{
