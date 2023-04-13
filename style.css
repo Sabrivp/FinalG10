@@ -1,19 +1,25 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
-background-image: url(./imagen/fondo1.jpg);
+/*background-image: url(./imagen/fondo1.jpg);
 background-position: center center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
-background-color: #7e268a (75, 75, 252);
+background-color: #7e268a (75, 75, 252);    */
 
 
 }
 .banner{
     padding: 0 50px;
     background-image: url(./imagen/fondo1.jpg);
-    height: 45vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;    
     background-size: cover;
     background-position: center;
+    height: 45vh;
 }
 .contenido-banner{
     position: relative;
@@ -28,9 +34,9 @@ background-color: #7e268a (75, 75, 252);
 .contenido-banner h3{
     font-size: 100px;
     font-weight: 500;
-    padding: 250px 500px;
-
-
+    padding: 50px 50px;
+   /* background-image: url(./imagen/fondobienvenida.png back)*/
+    
 }
 .contenido-banner h3 span{
     font-weight: 100px;
@@ -57,9 +63,7 @@ background-color: #7e268a (75, 75, 252);
 
 
 
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 
 /*header*/
 header{
@@ -109,6 +113,21 @@ header{
 #check{
     display: none;
 }
+/* Personal */
+
+#personal{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #ef56b9;
+    border: #370344;
+color: aqua;
+
+
+}
+
+
 
 /* responsive */
 @media(max-width: 768px){
