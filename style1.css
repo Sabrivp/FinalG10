@@ -282,6 +282,11 @@ background: #66726c;
 color: #31b068;
 text-align: center;
 padding: 5px 5px;
+
+}
+footer p a{
+    text-decoration: none;
+    color: #31b068;
 }
 
 /* responsive */
