@@ -165,21 +165,20 @@ color: black;
     
 }
 .contenido-iconos{
-    padding: 50px 50px;
-    display: flex;
-    justify-content: space-between;
+    padding: 0px;
+    display: block;
+    justify-content:center;
     text-align: center;
-    
-}
 
-.contenido-iconos div{
-    flex: 2;
-    margin: 20px 20px;
-    border-right: 2px solid grey;
 
 }
-#icono-mobile{
-    border: none;
+
+
+
+.icono-mobile{
+border: none;
+text-align: center;
+
 }
 .contenido-iconos div i{
     color: aquamarine;
@@ -227,10 +226,11 @@ color: black;
 }
 .datos-form{
     display: flex;
+    padding: 0px;
 
 }
-.datos-form div{
-    padding: 10px;
+form .datos-form {
+    padding: 0px 0px;
     flex: 1;
 
 }
@@ -239,12 +239,16 @@ form label{
     margin-bottom: 10px;
 
 }
+form .mensaje label{
+    display: block;
+    margin-bottom: 10px;
+    }
 form input,
 form textarea{
     background: #6cc091;
     border-radius: 10px;
     border: 2px solid #8dcca9;
-    padding: 10px 5px;
+    padding: 0px;
     outline: 0;
     color: azure;
     width: 100%;
@@ -260,10 +264,11 @@ form input::placeholder,
 form textarea::placeholder{
     color: azure;
 }
-.mensaje{
+form .mensaje{
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 0px;
+    margin-top: 10px;
 }
 
 .boton-formulario .boton-saber-mas{
