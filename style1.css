@@ -181,7 +181,7 @@ color: black;
 #icono-mobile{
     border: none;
 }
-.contenido-iconos div i{
+.contenido-iconos div span{
     color: aquamarine;
 }
 .boton-iconos{
