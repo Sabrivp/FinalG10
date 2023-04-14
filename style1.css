@@ -160,7 +160,7 @@ color: black;
 
 #iconos{
 
-    padding: 0px 50px;
+    padding: 20px 50px;
     background: rgb(174, 173, 173);
     
 }
@@ -169,6 +169,7 @@ color: black;
     display: block;
     justify-content:center;
     text-align: center;
+    margin-top: 10px;
 
 
 }
@@ -222,7 +223,7 @@ text-align: center;
 }
 #contacto form{
     max-width: 80%;
-    margin: 0 auto;
+    margin: 0 auto ;
 }
 .datos-form{
     display: flex;
@@ -231,9 +232,18 @@ text-align: center;
 }
 form .datos-form {
     padding: 0px 0px;
-    flex: 1;
-
+    display: flex;
+    margin-top: 10px;
 }
+.datos-form .nombre{
+    width: 100%;
+}
+
+form .email{
+    margin-top: 10px;
+}
+
+
 form label{
     display: block;
     margin-bottom: 10px;
@@ -242,7 +252,11 @@ form label{
 form .mensaje label{
     display: block;
     margin-bottom: 10px;
-    }
+    margin-top: 10px;
+}
+
+
+
 form input,
 form textarea{
     background: #6cc091;
